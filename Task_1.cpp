@@ -7,8 +7,8 @@ class Point{
 
     public:
     Point(){
-        X = 0;
-        Y = 0;
+        X = 0; // default values
+        Y = 0; // default values
     }
 
     int getX(){
