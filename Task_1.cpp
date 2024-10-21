@@ -11,16 +11,20 @@ class Point{
         Y = 0; // default values
     }
 
-    int getX(){
-       return X;
-    }
+    int getX(){ //The getX method is a public member function that allows access to the private member variable X 
+        return  X; //of the Point class. It returns the value of X. This is useful for encapsulation, 
+    }               //as it provides a controlled way to access the value of X from outside the class, 
+                   //while keeping the variable itself private.
+        
+    
 
     int getY(){
         return Y;
     }
 
+ //The displayPoint method provides a way to view these values without exposing the variables themselves.
 
-    void displayPoint(){
+    void displayPoint(){                                     //void does not return any value.
         cout << "Point coordinates:" << X << "," << Y << endl;
     }
 
